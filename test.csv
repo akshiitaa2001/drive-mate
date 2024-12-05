@@ -1,0 +1,492 @@
+"vehicle_id_1","vehicle_id_2","rented_vehicle","recommended_vehicle","frequency"
+33,71,"Ford","Land Rover",7
+33,76,"Ford","smart",7
+49,119,"Acura","Audi",7
+54,71,"Audi","Land Rover",7
+54,69,"Audi","Porsche",6
+54,59,"Audi","Mercedes-Benz",6
+118,135,"Chevrolet","Chevrolet",6
+49,54,"Acura","Audi",6
+49,121,"Acura","Dodge",6
+79,143,"Land Rover","Maserati",6
+79,104,"Land Rover","Maserati",6
+118,149,"Chevrolet","Dodge",6
+54,74,"Audi","Mercedes-Benz",6
+88,124,"Mercedes-Benz","Tesla",6
+79,102,"Land Rover","Volkswagen",6
+79,93,"Land Rover","Tesla",6
+49,81,"Acura","Infiniti",6
+79,110,"Land Rover","Porsche",6
+33,149,"Ford","Dodge",6
+49,57,"Acura","Jaguar",6
+79,80,"Land Rover","BMW",6
+118,147,"Chevrolet","Tesla",5
+49,71,"Acura","Land Rover",5
+79,121,"Land Rover","Dodge",5
+49,58,"Acura","Tesla",5
+33,58,"Ford","Tesla",5
+96,101,"BMW","Mercedes-Benz",5
+33,44,"Ford","Mercedes-benz",5
+96,146,"BMW","Ford",5
+79,114,"Land Rover","Tesla",5
+88,96,"Mercedes-Benz","BMW",5
+33,39,"Ford","Land Rover",5
+79,119,"Land Rover","Audi",5
+54,148,"Audi","Hyundai",5
+49,62,"Acura","Chevrolet",5
+49,132,"Acura","Land Rover",5
+33,141,"Ford","Audi",5
+33,40,"Ford","Tesla",5
+54,112,"Audi","Porsche",5
+54,93,"Audi","Tesla",5
+118,126,"Chevrolet","Toyota",5
+88,141,"Mercedes-Benz","Audi",5
+54,115,"Audi","Porsche",5
+96,142,"BMW","Ford",5
+33,49,"Ford","Acura",5
+54,136,"Audi","Nissan",5
+118,120,"Chevrolet","BMW",5
+118,129,"Chevrolet","Mitsubishi",5
+88,100,"Mercedes-Benz","Ford",5
+33,96,"Ford","BMW",5
+33,104,"Ford","Maserati",5
+33,136,"Ford","Nissan",5
+33,129,"Ford","Mitsubishi",5
+96,127,"BMW","Porsche",5
+33,85,"Ford","Mercedes-Benz",4
+79,132,"Land Rover","Land Rover",4
+96,145,"BMW","Acura",4
+33,63,"Ford","Land Rover",4
+33,69,"Ford","Porsche",4
+33,89,"Ford","Maserati",4
+49,86,"Acura","Tesla",4
+118,119,"Chevrolet","Audi",4
+88,89,"Mercedes-Benz","Maserati",4
+49,51,"Acura","Chevrolet",4
+79,92,"Land Rover","BMW",4
+49,111,"Acura","Tesla",4
+33,105,"Ford","BMW",4
+96,119,"BMW","Audi",4
+33,38,"Ford","smart",4
+79,112,"Land Rover","Porsche",4
+49,52,"Acura","Audi",4
+49,141,"Acura","Audi",4
+54,88,"Audi","Mercedes-Benz",4
+49,69,"Acura","Porsche",4
+49,126,"Acura","Toyota",4
+96,113,"BMW","Porsche",4
+96,148,"BMW","Hyundai",4
+96,130,"BMW","Chevrolet",4
+88,147,"Mercedes-Benz","Tesla",4
+54,133,"Audi","BMW",4
+54,87,"Audi","Maserati",4
+54,147,"Audi","Tesla",4
+49,87,"Acura","Maserati",4
+49,105,"Acura","BMW",4
+49,76,"Acura","smart",4
+33,60,"Ford","Chevrolet",4
+49,102,"Acura","Volkswagen",4
+54,58,"Audi","Tesla",4
+49,139,"Acura","BMW",4
+54,99,"Audi","Chevrolet",4
+79,135,"Land Rover","Chevrolet",4
+79,96,"Land Rover","BMW",4
+33,142,"Ford","Ford",4
+54,111,"Audi","Tesla",4
+54,121,"Audi","Dodge",4
+118,137,"Chevrolet","Maserati",4
+96,132,"BMW","Land Rover",4
+88,127,"Mercedes-Benz","Porsche",4
+79,98,"Land Rover","Land Rover",4
+54,66,"Audi","Chevrolet",4
+33,138,"Ford","Jaguar",4
+79,124,"Land Rover","Tesla",4
+33,87,"Ford","Maserati",4
+54,102,"Audi","Volkswagen",4
+49,96,"Acura","BMW",4
+54,79,"Audi","Land Rover",4
+33,115,"Ford","Porsche",4
+33,150,"Ford","Maserati",4
+33,35,"Ford","Lexus",4
+54,141,"Audi","Audi",4
+33,143,"Ford","Maserati",4
+79,129,"Land Rover","Mitsubishi",4
+79,108,"Land Rover","Land Rover",4
+118,124,"Chevrolet","Tesla",4
+49,148,"Acura","Hyundai",3
+96,116,"BMW","Jaguar",3
+33,79,"Ford","Land Rover",3
+33,127,"Ford","Porsche",3
+33,48,"Ford","Volkswagen",3
+49,89,"Acura","Maserati",3
+118,148,"Chevrolet","Hyundai",3
+33,124,"Ford","Tesla",3
+54,86,"Audi","Tesla",3
+88,93,"Mercedes-Benz","Tesla",3
+49,124,"Acura","Tesla",3
+96,108,"BMW","Land Rover",3
+88,90,"Mercedes-Benz","Chevrolet",3
+33,110,"Ford","Porsche",3
+49,147,"Acura","Tesla",3
+96,143,"BMW","Maserati",3
+33,36,"Ford","Cadillac",3
+54,60,"Audi","Chevrolet",3
+54,122,"Audi","Mercedes-Benz",3
+118,127,"Chevrolet","Porsche",3
+54,94,"Audi","BMW",3
+88,139,"Mercedes-Benz","BMW",3
+49,67,"Acura","Porsche",3
+54,135,"Audi","Chevrolet",3
+33,140,"Ford","Dodge",3
+88,140,"Mercedes-Benz","Dodge",3
+49,70,"Acura","Ford",3
+118,130,"Chevrolet","Chevrolet",3
+49,97,"Acura","Mercedes-Benz",3
+33,121,"Ford","Dodge",3
+54,144,"Audi","Audi",3
+33,131,"Ford","Porsche",3
+49,72,"Acura","Infiniti",3
+49,77,"Acura","BMW",3
+49,60,"Acura","Chevrolet",3
+33,119,"Ford","Audi",3
+54,125,"Audi","Chevrolet",3
+54,134,"Audi","Lexus",3
+49,78,"Acura","Chevrolet",3
+54,107,"Audi","Tesla",3
+54,126,"Audi","Toyota",3
+79,101,"Land Rover","Mercedes-Benz",3
+33,147,"Ford","Tesla",3
+49,128,"Acura","Tesla",3
+33,135,"Ford","Chevrolet",3
+54,57,"Audi","Jaguar",3
+33,139,"Ford","BMW",3
+96,124,"BMW","Tesla",3
+54,124,"Audi","Tesla",3
+54,63,"Audi","Land Rover",3
+79,83,"Land Rover","BMW",3
+33,128,"Ford","Tesla",3
+49,140,"Acura","Dodge",3
+54,145,"Audi","Acura",3
+96,115,"BMW","Porsche",3
+96,131,"BMW","Porsche",3
+118,128,"Chevrolet","Tesla",3
+33,41,"Ford","Porsche",3
+54,128,"Audi","Tesla",3
+33,111,"Ford","Tesla",3
+33,148,"Ford","Hyundai",3
+54,119,"Audi","Audi",3
+88,106,"Mercedes-Benz","Mercedes-Benz",3
+79,126,"Land Rover","Toyota",3
+96,141,"BMW","Audi",3
+79,106,"Land Rover","Mercedes-Benz",3
+79,118,"Land Rover","Chevrolet",3
+54,83,"Audi","BMW",3
+96,150,"BMW","Maserati",3
+118,144,"Chevrolet","Audi",3
+33,132,"Ford","Land Rover",3
+54,77,"Audi","BMW",3
+79,81,"Land Rover","Infiniti",3
+96,135,"BMW","Chevrolet",3
+33,118,"Ford","Chevrolet",3
+54,131,"Audi","Porsche",3
+96,123,"BMW","GMC",3
+54,98,"Audi","Land Rover",3
+118,136,"Chevrolet","Nissan",3
+33,95,"Ford","Tesla",3
+79,84,"Land Rover","BMW",3
+54,80,"Audi","BMW",3
+88,110,"Mercedes-Benz","Porsche",3
+96,134,"BMW","Lexus",3
+33,113,"Ford","Porsche",3
+33,55,"Ford","Audi",3
+96,139,"BMW","BMW",3
+79,82,"Land Rover","Tesla",3
+96,125,"BMW","Chevrolet",3
+88,105,"Mercedes-Benz","BMW",3
+49,109,"Acura","Bentley",3
+33,130,"Ford","Chevrolet",3
+79,122,"Land Rover","Mercedes-Benz",3
+49,118,"Acura","Chevrolet",3
+49,88,"Acura","Mercedes-Benz",3
+54,67,"Audi","Porsche",3
+49,134,"Acura","Lexus",3
+54,96,"Audi","BMW",3
+96,122,"BMW","Mercedes-Benz",3
+118,141,"Chevrolet","Audi",3
+54,92,"Audi","BMW",3
+54,109,"Audi","Bentley",3
+54,104,"Audi","Maserati",3
+33,86,"Ford","Tesla",3
+33,81,"Ford","Infiniti",3
+88,118,"Mercedes-Benz","Chevrolet",3
+79,85,"Land Rover","Mercedes-Benz",3
+96,118,"BMW","Chevrolet",3
+49,114,"Acura","Tesla",3
+54,81,"Audi","Infiniti",3
+49,127,"Acura","Porsche",3
+88,101,"Mercedes-Benz","Mercedes-Benz",3
+49,146,"Acura","Ford",3
+79,125,"Land Rover","Chevrolet",3
+54,146,"Audi","Ford",3
+54,101,"Audi","Mercedes-Benz",3
+88,99,"Mercedes-Benz","Chevrolet",3
+79,127,"Land Rover","Porsche",3
+33,88,"Ford","Mercedes-Benz",3
+96,121,"BMW","Dodge",3
+79,99,"Land Rover","Chevrolet",3
+88,149,"Mercedes-Benz","Dodge",3
+33,106,"Ford","Mercedes-Benz",3
+33,108,"Ford","Land Rover",3
+88,146,"Mercedes-Benz","Ford",2
+33,54,"Ford","Audi",2
+49,79,"Acura","Land Rover",2
+54,118,"Audi","Chevrolet",2
+96,105,"BMW","BMW",2
+54,114,"Audi","Tesla",2
+54,84,"Audi","BMW",2
+54,72,"Audi","Infiniti",2
+54,139,"Audi","BMW",2
+96,144,"BMW","Audi",2
+54,116,"Audi","Jaguar",2
+54,89,"Audi","Maserati",2
+88,97,"Mercedes-Benz","Mercedes-Benz",2
+88,92,"Mercedes-Benz","BMW",2
+88,143,"Mercedes-Benz","Maserati",2
+33,65,"Ford","INFINITI",2
+49,145,"Acura","Acura",2
+49,115,"Acura","Porsche",2
+54,75,"Audi","Mazda",2
+33,107,"Ford","Tesla",2
+33,123,"Ford","GMC",2
+49,112,"Acura","Porsche",2
+33,91,"Ford","Mercedes-Benz",2
+88,129,"Mercedes-Benz","Mitsubishi",2
+88,144,"Mercedes-Benz","Audi",2
+54,65,"Audi","INFINITI",2
+54,123,"Audi","GMC",2
+33,34,"Ford","Dodge",2
+49,85,"Acura","Mercedes-Benz",2
+33,101,"Ford","Mercedes-Benz",2
+49,130,"Acura","Chevrolet",2
+96,128,"BMW","Tesla",2
+96,100,"BMW","Ford",2
+79,120,"Land Rover","BMW",2
+49,92,"Acura","BMW",2
+33,37,"Ford","Lexus",2
+54,142,"Audi","Ford",2
+54,149,"Audi","Dodge",2
+54,113,"Audi","Porsche",2
+49,117,"Acura","Ford",2
+79,123,"Land Rover","GMC",2
+54,85,"Audi","Mercedes-Benz",2
+54,55,"Audi","Audi",2
+33,92,"Ford","BMW",2
+79,90,"Land Rover","Chevrolet",2
+33,98,"Ford","Land Rover",2
+118,125,"Chevrolet","Chevrolet",2
+33,83,"Ford","BMW",2
+33,59,"Ford","Mercedes-Benz",2
+33,120,"Ford","BMW",2
+96,137,"BMW","Maserati",2
+96,120,"BMW","BMW",2
+79,116,"Land Rover","Jaguar",2
+54,61,"Audi","Mercedes-Benz",2
+88,148,"Mercedes-Benz","Hyundai",2
+118,145,"Chevrolet","Acura",2
+96,140,"BMW","Dodge",2
+33,133,"Ford","BMW",2
+33,75,"Ford","Mazda",2
+49,82,"Acura","Tesla",2
+33,82,"Ford","Tesla",2
+33,144,"Ford","Audi",2
+33,126,"Ford","Toyota",2
+49,144,"Acura","Audi",2
+118,139,"Chevrolet","BMW",2
+118,142,"Chevrolet","Ford",2
+33,45,"Ford","BMW",2
+88,137,"Mercedes-Benz","Maserati",2
+88,108,"Mercedes-Benz","Land Rover",2
+49,131,"Acura","Porsche",2
+49,99,"Acura","Chevrolet",2
+96,114,"BMW","Tesla",2
+49,120,"Acura","BMW",2
+118,122,"Chevrolet","Mercedes-Benz",2
+118,133,"Chevrolet","BMW",2
+49,133,"Acura","BMW",2
+49,74,"Acura","Mercedes-Benz",2
+49,63,"Acura","Land Rover",2
+33,72,"Ford","Infiniti",2
+96,117,"BMW","Ford",2
+88,117,"Mercedes-Benz","Ford",2
+49,91,"Acura","Mercedes-Benz",2
+88,130,"Mercedes-Benz","Chevrolet",2
+118,146,"Chevrolet","Ford",2
+118,131,"Chevrolet","Porsche",2
+33,103,"Ford","Ford",2
+33,145,"Ford","Acura",2
+88,119,"Mercedes-Benz","Audi",2
+88,134,"Mercedes-Benz","Lexus",2
+88,102,"Mercedes-Benz","Volkswagen",2
+79,103,"Land Rover","Ford",2
+33,61,"Ford","Mercedes-Benz",2
+49,135,"Acura","Chevrolet",2
+49,116,"Acura","Jaguar",2
+79,95,"Land Rover","Tesla",2
+49,107,"Acura","Tesla",2
+88,136,"Mercedes-Benz","Nissan",2
+33,73,"Ford","INFINITI",2
+33,42,"Ford","Mercedes-Benz",2
+33,52,"Ford","Audi",2
+54,129,"Audi","Mitsubishi",2
+88,132,"Mercedes-Benz","Land Rover",2
+54,143,"Audi","Maserati",2
+54,82,"Audi","Tesla",2
+96,109,"BMW","Bentley",2
+79,146,"Land Rover","Ford",2
+33,51,"Ford","Chevrolet",2
+54,105,"Audi","BMW",2
+88,98,"Mercedes-Benz","Land Rover",2
+49,142,"Acura","Ford",2
+49,122,"Acura","Mercedes-Benz",2
+79,115,"Land Rover","Porsche",2
+79,139,"Land Rover","BMW",2
+79,89,"Land Rover","Maserati",2
+54,127,"Audi","Porsche",2
+96,111,"BMW","Tesla",2
+33,94,"Ford","BMW",2
+54,68,"Audi","Tesla",2
+33,50,"Ford","Tesla",2
+33,66,"Ford","Chevrolet",2
+79,107,"Land Rover","Tesla",2
+33,97,"Ford","Mercedes-Benz",2
+49,129,"Acura","Mitsubishi",2
+33,109,"Ford","Bentley",2
+88,142,"Mercedes-Benz","Ford",2
+49,104,"Acura","Maserati",2
+49,143,"Acura","Maserati",2
+49,125,"Acura","Chevrolet",2
+79,100,"Land Rover","Ford",2
+54,110,"Audi","Porsche",2
+96,97,"BMW","Mercedes-Benz",2
+79,111,"Land Rover","Tesla",2
+54,108,"Audi","Land Rover",2
+88,116,"Mercedes-Benz","Jaguar",2
+88,91,"Mercedes-Benz","Mercedes-Benz",2
+96,110,"BMW","Porsche",2
+118,132,"Chevrolet","Land Rover",2
+79,128,"Land Rover","Tesla",2
+96,133,"BMW","BMW",2
+49,59,"Acura","Mercedes-Benz",2
+96,136,"BMW","Nissan",2
+79,97,"Land Rover","Mercedes-Benz",1
+33,74,"Ford","Mercedes-Benz",1
+33,122,"Ford","Mercedes-Benz",1
+79,86,"Land Rover","Tesla",1
+96,99,"BMW","Chevrolet",1
+88,133,"Mercedes-Benz","BMW",1
+33,70,"Ford","Ford",1
+96,102,"BMW","Volkswagen",1
+54,76,"Audi","smart",1
+54,140,"Audi","Dodge",1
+33,114,"Ford","Tesla",1
+33,99,"Ford","Chevrolet",1
+33,53,"Ford","Nissan",1
+79,91,"Land Rover","Mercedes-Benz",1
+54,91,"Audi","Mercedes-Benz",1
+88,112,"Mercedes-Benz","Porsche",1
+33,62,"Ford","Chevrolet",1
+49,93,"Acura","Tesla",1
+88,115,"Mercedes-Benz","Porsche",1
+96,147,"BMW","Tesla",1
+49,55,"Acura","Audi",1
+54,117,"Audi","Ford",1
+96,98,"BMW","Land Rover",1
+33,78,"Ford","Chevrolet",1
+33,67,"Ford","Porsche",1
+33,80,"Ford","BMW",1
+118,138,"Chevrolet","Jaguar",1
+79,141,"Land Rover","Audi",1
+79,134,"Land Rover","Lexus",1
+88,120,"Mercedes-Benz","BMW",1
+88,126,"Mercedes-Benz","Toyota",1
+54,100,"Audi","Ford",1
+79,145,"Land Rover","Acura",1
+79,113,"Land Rover","Porsche",1
+79,133,"Land Rover","BMW",1
+96,103,"BMW","Ford",1
+49,113,"Acura","Porsche",1
+54,90,"Audi","Chevrolet",1
+49,137,"Acura","Maserati",1
+33,112,"Ford","Porsche",1
+96,138,"BMW","Jaguar",1
+79,147,"Land Rover","Tesla",1
+49,53,"Acura","Nissan",1
+88,113,"Mercedes-Benz","Porsche",1
+96,104,"BMW","Maserati",1
+33,125,"Ford","Chevrolet",1
+33,56,"Ford","Dodge",1
+88,138,"Mercedes-Benz","Jaguar",1
+54,73,"Audi","INFINITI",1
+88,145,"Mercedes-Benz","Acura",1
+33,146,"Ford","Ford",1
+49,138,"Acura","Jaguar",1
+49,98,"Acura","Land Rover",1
+96,149,"BMW","Dodge",1
+79,136,"Land Rover","Nissan",1
+49,123,"Acura","GMC",1
+33,68,"Ford","Tesla",1
+118,140,"Chevrolet","Dodge",1
+96,112,"BMW","Porsche",1
+54,132,"Audi","Land Rover",1
+49,103,"Acura","Ford",1
+118,150,"Chevrolet","Maserati",1
+54,64,"Audi","Maserati",1
+54,56,"Audi","Dodge",1
+33,47,"Ford","Mercedes-Benz",1
+54,78,"Audi","Chevrolet",1
+33,117,"Ford","Ford",1
+49,66,"Acura","Chevrolet",1
+96,129,"BMW","Mitsubishi",1
+118,134,"Chevrolet","Lexus",1
+79,117,"Land Rover","Ford",1
+49,95,"Acura","Tesla",1
+88,103,"Mercedes-Benz","Ford",1
+49,61,"Acura","Mercedes-Benz",1
+79,88,"Land Rover","Mercedes-Benz",1
+49,108,"Acura","Land Rover",1
+49,68,"Acura","Tesla",1
+88,135,"Mercedes-Benz","Chevrolet",1
+88,150,"Mercedes-Benz","Maserati",1
+49,150,"Acura","Maserati",1
+79,109,"Land Rover","Bentley",1
+49,149,"Acura","Dodge",1
+96,126,"BMW","Toyota",1
+49,50,"Acura","Tesla",1
+49,75,"Acura","Mazda",1
+88,131,"Mercedes-Benz","Porsche",1
+49,101,"Acura","Mercedes-Benz",1
+79,130,"Land Rover","Chevrolet",1
+88,109,"Mercedes-Benz","Bentley",1
+88,121,"Mercedes-Benz","Dodge",1
+88,107,"Mercedes-Benz","Tesla",1
+33,137,"Ford","Maserati",1
+88,94,"Mercedes-Benz","BMW",1
+33,102,"Ford","Volkswagen",1
+49,110,"Acura","Porsche",1
+49,90,"Acura","Chevrolet",1
+79,105,"Land Rover","BMW",1
+79,144,"Land Rover","Audi",1
+49,136,"Acura","Nissan",1
+54,106,"Audi","Mercedes-Benz",1
+33,134,"Ford","Lexus",1
+118,123,"Chevrolet","GMC",1
+33,57,"Ford","Jaguar",1
+79,140,"Land Rover","Dodge",1
+88,125,"Mercedes-Benz","Chevrolet",1
+96,107,"BMW","Tesla",1
+96,106,"BMW","Mercedes-Benz",1
+33,116,"Ford","Jaguar",1
+54,70,"Audi","Ford",1
+79,142,"Land Rover","Ford",1
+33,100,"Ford","Ford",1
+33,64,"Ford","Maserati",1

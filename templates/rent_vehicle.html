@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rent a Vehicle</title>
+</head>
+<body>
+    <h2>Rent a Vehicle</h2>
+    <a href="{{ url_for('logout') }}">Logout</a> <!-- Add logout link here -->
+
+    <!-- Recommended Vehicles Section -->
+    <h3>Recommended Vehicles for You</h3>
+    {% if recommended_vehicles %}
+        <ul>
+            {% for vehicle in recommended_vehicles %}
+                <li>
+                    <strong>{{ vehicle.make }} {{ vehicle.model }} ({{ vehicle.year }})</strong><br>
+                    Type: {{ vehicle.type }}<br>
+                    Daily Rate: ${{ vehicle.daily_rate }}<br>
+                    Location: {{ vehicle.location_city }}, {{ vehicle.location_state }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No recommendations available at the moment.</p>
+    {% endif %}
+
+    <!-- Vehicle Rental Form -->
+    <form method="post" action="/rent_vehicle">
+        <!-- Vehicle Selection Dropdown -->
+        <label for="vehicle">Select a Vehicle:</label>
+        <select name="vehicle_id" id="vehicle" required>
+        <option value="" disabled selected>Select a vehicle</option>
+            {% if vehicles %}
+                {% for vehicle in vehicles %}
+                    <option value="{{ vehicle.vehicle_id }}">
+                        {{ vehicle.make }} {{ vehicle.model }} - {{ vehicle.type }} ({{ vehicle.year }}) - ${{ vehicle.daily_rate }}/day
+                    </option>
+                {% endfor %}
+            {% else %}
+                <option value="">No vehicles available</option>
+            {% endif %}
+        </select>
+    
+        <!-- Rental Start Date Input -->
+        <label for="start_date">Rental Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required>
+
+        <!-- Rental End Date Input -->
+        <label for="end_date">Rental End Date:</label>
+        <input type="date" id="end_date" name="end_date" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Confirm Rental</button>
+    </form>
+</body>
+</html>

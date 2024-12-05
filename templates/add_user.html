@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User</title>
+</head>
+<body>
+    <h1>Add User Details</h1>
+    <form action="{{ url_for('add_user') }}" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br>
+        <label for="license_number">License Number:</label><br>
+        <input type="text" id="license_number" name="license_number" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
