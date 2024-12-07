@@ -7,7 +7,7 @@ from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 
 #DATABASE_URL = "postgresql+psycopg2://postgres:Akshit%4001@localhost:5432/vehicle_rental_database"
-DATABASE_URL = "postgresql+psycopg2://postgres:postgres123@mydb.cdy2k0g8ajwp.us-east-1.rds.amazonaws.com/mydb"
+DATABASE_URL = "postgresql+psycopg2://postgres:postgres123@vehicle-rental-database.cdy2k0g8ajwp.us-east-1.rds.amazonaws.com/vehicle_rental_database"
 
 
 engine = create_engine(DATABASE_URL)
