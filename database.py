@@ -1,5 +1,8 @@
 #setting up a connection to PostgreSQL using SQLAlchemy
+from dotenv import load_dotenv
+load_dotenv()
 
+import os
 from sqlalchemy import create_engine, Column, Integer, String, Float, ForeignKey, Text, DateTime, DECIMAL
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.ext.declarative import declarative_base
@@ -7,9 +10,15 @@ from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 
 #DATABASE_URL = "postgresql+psycopg2://postgres:Akshit%4001@localhost:5432/vehicle_rental_database"
-DATABASE_URL = "postgresql+psycopg2://postgres:postgres123@vehicle-rental-database.cdy2k0g8ajwp.us-east-1.rds.amazonaws.com/vehicle_rental_database"
+#DATABASE_URL = "postgresql+psycopg2://postgres:postgres123@vehicle-rental-database.cdy2k0g8ajwp.us-east-1.rds.amazonaws.com/vehicle_rental_database"
 
+# Fetch the DATABASE_URL from environment variables
+DATABASE_URL = os.getenv("DATABASE_URL")
 
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL environment variable is not set")
+
+# Set up the database connection
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()

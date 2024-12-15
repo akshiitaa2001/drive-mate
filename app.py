@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from database import Base, engine, SessionLocal, init_db, User, Vehicle, Rental, RentalSummary, VehicleRecommendations
 from datetime import datetime
@@ -306,4 +310,4 @@ def get_recommended_vehicles(user_id):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=True)
