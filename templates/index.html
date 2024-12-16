@@ -1,16 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Welcome to the Vehicle Rental System</h1>
-    
-    {% if 'user_id' not in session %}
-        <p><a href="{{ url_for('login') }}">Login</a> | <a href="{{ url_for('register') }}">Register</a></p>
-    {% else %}
-        <p><a href="{{ url_for('logout') }}">Logout</a></p>
-    {% endif %}
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Home - DriveMate{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section text-center py-5">
+    <div class="container">
+        <div class="hero-text bg-light shadow rounded p-5 mx-auto">
+            <h1 class="display-4 fw-bold text-primary">Welcome to DriveMate</h1>
+            <p class="lead text-muted">Your trusted vehicle rental system for all your travel needs.</p>
+            <a href="{{ url_for('register') }}" class="btn btn-danger btn-lg mt-3">Explore Our Fleet</a>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features py-5">
+    <div class="container">
+        <h2 class="text-center text-primary mb-5">Why Choose Us?</h2>
+        <div class="row g-4">
+            <!-- Feature 1 -->
+            <div class="col-md-4">
+                <div class="feature-card text-center p-4 bg-white shadow rounded">
+                    <i class="fas fa-car fa-3x text-primary mb-3"></i>
+                    <h4 class="fw-bold">Wide Variety of Vehicles</h4>
+                    <p class="text-muted">Choose from sedans, SUVs, and trucks to fit all your travel needs.</p>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-md-4">
+                <div class="feature-card text-center p-4 bg-white shadow rounded">
+                    <i class="fas fa-calendar-check fa-3x text-primary mb-3"></i>
+                    <h4 class="fw-bold">Flexible Rentals</h4>
+                    <p class="text-muted">Book vehicles for short trips or long-term rentals with ease.</p>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-md-4">
+                <div class="feature-card text-center p-4 bg-white shadow rounded">
+                    <i class="fas fa-headset fa-3x text-primary mb-3"></i>
+                    <h4 class="fw-bold">24/7 Customer Support</h4>
+                    <p class="text-muted">We’re here to help you at every step of your journey.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Note -->
+<div class="text-center py-4">
+    <small class="text-muted">DriveMate - Your travel partner since 2024.</small>
+</div>
+{% endblock %}

@@ -1,29 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Rental Confirmation</title>
-</head>
-<body>
-    <h1>Rental Confirmation</h1>
-    <p>Thank you, {{ user.first_name }}! Your rental request has been successfully processed.</p>
+{% extends "base.html" %}
 
-    <h3>Rental Details:</h3>
-    <ul>
-        <li><strong>Vehicle:</strong> {{ vehicle.make }} {{ vehicle.model }} - {{ vehicle.year }}</li>
-        <li><strong>Rental Period:</strong> {{ rental.pickup_date }} to {{ rental.return_date }}</li>
-        <li><strong>Price Per Day:</strong> ${{ price_per_day }}</li>
-        <li><strong>Total Cost:</strong> ${{ total_cost }}</li>
-    </ul>
+{% block title %}Rental Confirmation - DriveMate{% endblock %}
 
-    <p>We hope you enjoy your rental! If you have any questions, feel free to reach out to our support team.</p>
-    <a href="{{ url_for('rent_vehicle') }}">Book Another Rental</a> |
-    <a href="{{ url_for('register') }}">Add Another User</a>
+{% block content %}
+<div class="container py-5">
+    <!-- Confirmation Message -->
+    <div class="text-center mb-5">
+        <h1 class="text-success">Rental Confirmed!</h1>
+        <p class="lead">Thank you, <strong>{{ user.first_name }}</strong>! Your rental request has been successfully processed.</p>
+    </div>
 
-    <!-- Add the Logout Button -->
-    <form action="{{ url_for('logout') }}" method="post" style="margin-top: 20px;">
-        <button type="submit">Logout</button>
-    </form>
+    <!-- Rental Details Card -->
+    <div class="card shadow mx-auto" style="max-width: 600px;">
+        <div class="card-header bg-primary text-white text-center">
+            <h4>Rental Details</h4>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <strong>Vehicle:</strong> {{ vehicle.make }} {{ vehicle.model }} - {{ vehicle.year }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Rental Period:</strong> {{ rental.pickup_date }} to {{ rental.return_date }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Price Per Day:</strong> ${{ price_per_day }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Total Cost:</strong> ${{ total_cost }}
+                </li>
+            </ul>
+        </div>
+    </div>
 
-</body>
-</html>
+    <!-- Actions -->
+    <div class="text-center mt-4">
+        <a href="{{ url_for('rent_vehicle') }}" class="btn btn-primary me-2">Book Another Rental</a>
+        <a href="{{ url_for('register') }}" class="btn btn-secondary me-2">Add Another User</a>
+        <form action="{{ url_for('logout') }}" method="post" class="d-inline">
+            <button type="submit" class="btn btn-danger">Logout</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

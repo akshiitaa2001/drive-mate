@@ -1,37 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Register</title>
-</head>
-<body>
-    <h1>Register</h1>
-    <form action="{{ url_for('register') }}" method="post">
-    <label for="first_name">First Name:</label><br>
-    <input type="text" id="first_name" name="first_name" required><br>
-    <label for="last_name">Last Name:</label><br>
-    <input type="text" id="last_name" name="last_name" required><br>
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username" required><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br>
-    <label for="phone_number">Phone Number:</label><br>
-    <input type="text" id="phone_number" name="phone_number" required><br>
-    <label for="age">Age:</label><br>
-    <input type="number" id="age" name="age" required><br>
-    <label for="license_number">License Number:</label><br>
-    <input type="text" id="license_number" name="license_number" required><br><br>
-    <label for="city">City:</label><br>
-    <input type="text" id="city" name="city" required><br>
-    <label for="state">State:</label><br>
-    <input type="text" id="state" name="state" required><br>
-    <label for="postal_code">Postal Code:</label><br>
-    <input type="text" id="postal_code" name="postal_code" required><br>
-    <input type="hidden" name="country" value="USA"><br><br> <!-- Default to USA -->
-    <button type="submit">Register</button>
-    </form>
-</body>
-</html>
+{% extends "base.html" %}
 
+{% block title %}Register - DriveMate{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3>Create Your DriveMate Account</h3>
+                </div>
+                <div class="card-body">
+                    <!-- Registration Form -->
+                    <form action="{{ url_for('register') }}" method="post">
+                        <div class="row g-3">
+                            <!-- Personal Details -->
+                            <div class="col-md-6">
+                                <label for="first_name" class="form-label">First Name</label>
+                                <input type="text" id="first_name" name="first_name" class="form-control" placeholder="First Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="last_name" class="form-label">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" class="form-control" placeholder="Last Name" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" id="username" name="username" class="form-control" placeholder="Choose a username" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Enter a password" required>
+                            </div>
+
+                            <!-- Contact Details -->
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="example@mail.com" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone_number" class="form-label">Phone Number</label>
+                                <input type="text" id="phone_number" name="phone_number" class="form-control" placeholder="e.g., 123-456-7890" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="age" class="form-label">Age</label>
+                                <input type="number" id="age" name="age" class="form-control" placeholder="Enter your age" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="license_number" class="form-label">License Number</label>
+                                <input type="text" id="license_number" name="license_number" class="form-control" placeholder="e.g., AB12345" required>
+                            </div>
+
+                            <!-- Address Details -->
+                            <div class="col-md-4">
+                                <label for="city" class="form-label">City</label>
+                                <input type="text" id="city" name="city" class="form-control" placeholder="City" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="state" class="form-label">State</label>
+                                <input type="text" id="state" name="state" class="form-control" placeholder="State" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="postal_code" class="form-label">Postal Code</label>
+                                <input type="text" id="postal_code" name="postal_code" class="form-control" placeholder="e.g., 12345" required>
+                            </div>
+
+                            <!-- Hidden Country Field -->
+                            <input type="hidden" name="country" value="USA">
+
+                            <!-- Submit Button -->
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary w-100">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <small>Already have an account? <a href="{{ url_for('login') }}" class="text-primary">Login here</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

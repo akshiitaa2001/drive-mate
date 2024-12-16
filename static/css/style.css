@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(30, 58, 95, 0.7), rgba(30, 58, 95, 0.7)), url('/static/images/hero.jpg') center/cover no-repeat;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    color: #1E3A5F;
+}
+
+.hero-text p {
+    color: #555;
+}
+
+.btn-danger {
+    background-color: #e63946;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #d62839;
+}
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+}
+
+.feature-card {
+    transition: transform 0.3s ease;
+}
+
+.feature-card i {
+    color: #1E3A5F;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #1E3A5F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
