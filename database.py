@@ -7,9 +7,7 @@ from sqlalchemy import create_engine, Column, Integer, String, Float, ForeignKey
 from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
-
-#DATABASE_URL = "postgresql+psycopg2://postgres:Akshit%4001@localhost:5432/vehicle_rental_database"
-#DATABASE_URL = "postgresql+psycopg2://postgres:postgres123@vehicle-rental-database.cdy2k0g8ajwp.us-east-1.rds.amazonaws.com/vehicle_rental_database"
+import streamlit as st
 
 # Fetch the DATABASE_URL from environment variables
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -21,6 +19,26 @@ if not DATABASE_URL:
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
+
+# Test Database Connection
+def test_connection():
+    try:
+        engine = create_engine(DATABASE_URL)
+        with engine.connect() as connection:
+            st.success("✅ Successfully connected to the database!")
+            return True
+    except Exception as e:
+        st.error(f"❌ Failed to connect to the database: {e}")
+        return False
+
+# Streamlit App
+st.title("Vehicle Rental Dashboard")
+
+# Test connection on app load
+if test_connection():
+    st.info("You can now fetch and display data from your database.")
+else:
+    st.warning("Check your DATABASE_URL and database credentials.")
 
 # Define User model
 class User(Base):
