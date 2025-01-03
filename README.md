@@ -57,13 +57,17 @@
 ---
 
 ## Technologies Used
-- **Frontend:** Flask, HTML, CSS
+- **Frontend:** Flask, HTML, CSS (Deployed on Railway)
 - **Backend:** Python
-- **Database:** PostgreSQL
+- **Database:** PostgreSQL (Hosted on AWS RDS)
 - **Visualization:** Streamlit
 - **ETL Pipeline:** Custom Python scripts
 - **Recommendation System:** MapReduce for collaborative filtering
-- **Cloud Platform:** AWS EC2, AWS RDS
+- **Cloud Platforms:**
+  - Railway: Frontend deployment
+  - AWS RDS: Database hosting
+  - AWS EC2: Execution of Python scripts
+  - Streamlit: Visualizations to drive business insights
 - **Version Control:** GitHub
 
 ---
@@ -104,14 +108,16 @@
     ```
 8. View visualizations:
     ```bash
-    streamlit run visualization_dashboard.py
+    streamlit run dashboard.py
     ```
 
 ---
 
 ## AWS Deployment
 - All scripts (e.g., `database.py`, `etl_process.py`, `recommendation_system.py`) are stored on GitHub and pulled to AWS EC2 for execution.
-- Steps for deployment are outlined in the documentation.
+- The database is hosted on AWS RDS for reliable and scalable storage.
+- The frontend is deployed on Railway for easy and efficient access.
+- Streamlit dashboards provide business insights through interactive visualizations.
 
 ---
 
@@ -121,8 +127,8 @@ This project demonstrates the following skills:
 - Database design and management with PostgreSQL.
 - Building ETL pipelines for data processing.
 - Interactive data visualization using Streamlit.
-- MapReduce implementation for item-based collaborative filtering recommendations.
-- Cloud deployment on AWS.
+- MapReduce implementation for collaborative filtering recommendations.
+- Cloud deployment across multiple platforms (Railway, AWS RDS, AWS EC2).
 
 ---
 
