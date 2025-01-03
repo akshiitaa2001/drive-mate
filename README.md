@@ -141,7 +141,7 @@ This project demonstrates the following skills:
 
 ## Contributors
 - **Akshita Agrawal**
-  - [LinkedIn](https://linkedin.com/in/akshita-agrawal)
+  - [LinkedIn](https://linkedin.com/in/akshita~agrawal)
   - [GitHub](https://github.com/akshiitaa2001)
 
 ---
